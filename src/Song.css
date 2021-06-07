@@ -1,0 +1,28 @@
+.list{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    max-width: 100vw;
+}
+
+.list > img {
+    height: 40px;
+}
+
+
+.inform{
+    margin-left: 10px;
+    font-size: 10px !important;
+    padding: 9px;
+    font-weight: 300;
+}
+
+
+.inform > h3 {
+    font-size: 15px;
+}
+
+
+.inform:hover {
+    background-color: gray;
+}

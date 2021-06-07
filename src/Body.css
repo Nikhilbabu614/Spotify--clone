@@ -1,0 +1,52 @@
+.body{
+flex:0.8;
+background: linear-gradient(rgb(91, 87, 115), rgba(0,0,0,1));
+color:rgb(214, 206, 206);
+overflow-y: overlay;
+height: 100vh;
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+
+.body_info{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.body_info >img{
+    /* /* padding: 10px; */
+    margin: 20px 10px auto 20px;
+    height:200px;
+    object-fit: contain;
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+
+.icongreen{
+    color:#1DB954;
+    font-size: 60px !important;
+    margin-right: 20px !important;
+    margin-left: 20px;
+
+}
+
+.ic{
+    /* height: 200px; */
+    font-size: 30px !important;
+    margin-right: 20px !important;
+}
+
+
+

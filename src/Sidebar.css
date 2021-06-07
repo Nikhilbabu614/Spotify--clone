@@ -1,0 +1,17 @@
+.sidebar{
+        height: 100vh;
+    flex:0.2;
+    width:200px;
+    background-color: black;
+}
+
+.sidebar >  img{
+    height: 60px;
+    padding: 10px;
+    object-fit: contain;
+}
+
+.sidebar > hr {
+    size:1px;
+    border-width:0.5px 0px 0px 0px;
+}

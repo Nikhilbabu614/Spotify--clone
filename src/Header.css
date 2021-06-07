@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7px;
+    background-color: #1D1D1D;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.left > input {
+    outline: none;
+    border: none;
+    width:14vw;
+    height:20px;
+    margin-left: 10px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:15vw;
+    color: white;
+}
+
+
